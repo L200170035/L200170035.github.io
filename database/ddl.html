@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container" id="navbar">
+            <h1>
+                <font color='black' face='Swis721 BlkEx BT'>SISTEM MANAJEMEN BASIS DATA</font>
+            </h1>
+        </div>
+    </nav>
+    <!-- navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container" id="navbar">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li role="presentation">
+                        <a href="index.html">
+                            <font color='White'><b>HOME</b></font>
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href='about.html'>
+                            <font color='White'><b>ABOUT</b></font>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <div id="background">
+    </div>
+
+    <!-- container atas -->
+    <div id="home">
+        <div class="isi">
+            <div class="container atas">
+                <h1>
+                    <font color='black' face='Swis721 BlkEx BT'>DATA DEFINITION LANGUAGE</font>
+                </h1>
+                <div class="row">
+                    <p class="text-left"><strong>Data Definition Language atau Data Description Language</strong> merupakan kumpulan perintah SQL yang digunakan untuk membuat, mengubah dan menghapus struktur dan definisi metadata dari objek-objek database.</br>
+                        </br>
+
+                        <strong>DDL (Data Definition Language)</strong> Seperti definisi yang telah dijelaskan di atas, DDL adalah kumpulan perintah SQL yang digunakan untuk membuat (create), mengubah (alter) dan menghapus (drop) struktur dan definisi
+                        tipe data dari objek-objek database.
+                        </br>
+                        </br>Objek-objek database pada yang dimaksud adalah sebagai berikut :</br>
+                        -> Database</br>
+                        -> Table</br>
+                        -> View</br>
+                        -> Index</br>
+                        -> Procedure (Stored Procedure)</br>
+                        -> Function</br>
+                        -> Trigger</br>
+                        </br>
+                        <b>CONTOH :</b></br>
+                        </br>
+
+                        Perintah berikut akan membuat table pada database kita dengan nama "ms_karyawan"</br>
+                        CREATE TABLE ms_karyawan (</br>
+                        kode_cabang varchar(10) default NULL,</br>
+                        kode_karyawan varchar(10) NOT NULL,</br>
+                        nama_depan varchar(8) default NULL,</br>
+                        nama_belakang varchar(9) default NULL,</br>
+                        jenis_kelamin varchar(1) default NULL,</br>
+                        PRIMARY KEY (kode_karyawan) )</br>
+                        </br>
+
+                        Daftar Perintah DDL pada MySQL 5.0</br>
+                        Berikut adalah contoh perintah DDL yang digunakan pada MySQL. </br>
+                        </br>
+                        <b>Pembuatan (CREATE)</b></br>
+                        </br>
+                        - CREATE DATABASE</br>
+                        - CREATE FUNCTION</br>
+                        - CREATE INDEX</br>
+                        - CREATE PROCEDURE</br>
+                        - CREATE TABLE</br>
+                        - CREATE TRIGGER</br>
+                        - CREATE VIEW</br>
+                        </br>
+
+                        <b>Perubahan (ALTER & RENAME)</b></br>
+                        </br>
+                        - ALTER DATABASE</br>
+                        - ALTER FUNCTION</br>
+                        - ALTER PROCEDURE</br>
+                        - ALTER TABLE</br>
+                        - ALTER VIEW</br>
+                        - RENAME TABLE</br>
+                        </br>
+
+                        <b>Penghapusan (DROP)</b></br>
+                        </br>
+                        - DROP DATABASE</br>
+                        - DROP FUNCTION</br>
+                        - DROP INDEX</br>
+                        - DROP PROCEDURE</br>
+                        - DROP TABLE</br>
+                        - DROP TRIGGER</br>
+                        - DROP VIEW
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container atas -->
+
+
+    <!-- kaki -->
+
+    <div class="container">
+        <div id="icon">
+            <center>
+                <i class="fa fa-instagram"><br><a href="https://www.instagram.com/malviniqbalfirdaus/"><font size='5' color ='red'><u>Instagram</u></font></a></i>
+                <i class="fa fa-facebook-official"><a href="https://www.facebook.com/malvin.iqbalfirdaus"><font size='5' color='red'><br><u>Facebook</u></font></a></i></div>
+        <h5 class="text-center">Copyright © 2019 Yaphet's.All Right Reserved.</h5>
+
+    </div>
+
+    <!-- kaki -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
